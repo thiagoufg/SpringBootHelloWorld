@@ -17,6 +17,15 @@ public class Convidado {
 	
 	private String telefone;
 
+	public Convidado() {
+	}
+	
+	public Convidado(String nome, String email, String telefone) {
+		this.setNome(nome);
+		this.setEmail(email);
+		this.setTelefone(telefone);
+	}
+
 	public Long getId() {
 		return id;
 	}
